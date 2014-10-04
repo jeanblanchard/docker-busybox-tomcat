@@ -1,6 +1,6 @@
 # Busybox with a Tomcat installation
 
-FROM jeanblanchard/busybox-java:8
+FROM jeanblanchard/busybox-java:7
 MAINTAINER Jean Blanchard <jean@blanchard.io>
 
 # Expose web port
