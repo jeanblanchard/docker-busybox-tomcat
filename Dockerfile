@@ -20,6 +20,7 @@ RUN curl -kLO https://archive.apache.org/dist/tomcat/tomcat-${TOMCAT_VERSION_MAJ
 
 # Configuration
 ADD tomcat-users.xml /opt/tomcat/conf/
+RUN sed -i 's/52428800/5242880000/g' /opt/tomcat/webapps/manager/WEB-INF/web.xml 
 
 # Set environment
 ENV CATALINA_HOME /opt/tomcat

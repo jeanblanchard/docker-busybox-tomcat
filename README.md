@@ -12,7 +12,7 @@ This is based off [Busybox](http://www.busybox.net/) to keep the size minimal.
 
 * `latest` or `8` or `tomcat8java8`: Tomcat 8 on Oracle Java 8
 * `tomcat7java8`: Tomcat 7 on Oracle Java 8
-* `tomcat7java8`: Tomcat 8 on Oracle Java 7
+* `tomcat8java7`: Tomcat 8 on Oracle Java 7
 * `7` or `tomcat7java7`: Tomcat 7 on Oracle Java 7
 
 ### Usage
