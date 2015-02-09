@@ -8,7 +8,7 @@ EXPOSE 8080
 
 # Tomcat Version
 ENV TOMCAT_VERSION_MAJOR 7
-ENV TOMCAT_VERSION_FULL  7.0.57
+ENV TOMCAT_VERSION_FULL  7.0.59
 
 # Download and install
 RUN curl -kLO https://archive.apache.org/dist/tomcat/tomcat-${TOMCAT_VERSION_MAJOR}/v${TOMCAT_VERSION_FULL}/bin/apache-tomcat-${TOMCAT_VERSION_FULL}.tar.gz &&\
