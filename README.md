@@ -1,4 +1,4 @@
-## Minimal Docker image with Apache Tomcat
+## Minimal Docker image with Apache Tomcat [![Build Status](https://travis-ci.org/jeanblanchard/docker-busybox-tomcat.svg?branch=tomcat7java8)](https://travis-ci.org/jeanblanchard/docker-busybox-tomcat)
 
 Basic [Docker](https://www.docker.com/) image to run [Apache Tomcat](http://tomcat.apache.org/).
 This is based off [Busybox](http://www.busybox.net/) to keep the size minimal.
@@ -19,4 +19,4 @@ This is based off [Busybox](http://www.busybox.net/) to keep the size minimal.
 
 Example: 
 
-    docker run -d jeanblanchard/busybox-tomcat:tomcat7java7
+    docker run -d jeanblanchard/busybox-tomcat:tomcat7java8
