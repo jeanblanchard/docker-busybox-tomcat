@@ -3,7 +3,7 @@ language: c
 env:
   global:
     - IMAGE_NAME=busybox-tomcat
-    - IMAGE_TAGS="tomcat7java8 7.0.61-java8"
+    - IMAGE_TAGS="tomcat7java8 7.0.62-java8"
     - PUBLISH_IF_BRANCH=tomcat7java8 # Publish only when building from this branch, not branches created from it
     # HUB_USERNAME, HUB_PASSWORD and HUB_EMAIL should be configured from the Travis repository settings
     - "HOST_IP=$(/sbin/ifconfig venet0:0 | grep 'inet addr' | awk -F: '{print $2}' | awk '{print $1}')"
