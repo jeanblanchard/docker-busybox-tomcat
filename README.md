@@ -1,5 +1,7 @@
 ## Minimal Docker image with Apache Tomcat [![Build Status](https://travis-ci.org/jeanblanchard/docker-busybox-tomcat.svg?branch=master)](https://travis-ci.org/jeanblanchard/docker-busybox-tomcat)
 
+> **Warning - This image is currently in hiatus, as the base Busybox image cannot run its package manager any more, so I cannot publish any updates. So please use [jeanblanchard/tomcat](https://github.com/jeanblanchard/docker-tomcat) instead, which is based on Alpine Linux, and is almost as small.**
+
 Basic [Docker](https://www.docker.com/) image to run [Apache Tomcat](http://tomcat.apache.org/).
 This is based off [Busybox](http://www.busybox.net/) to keep the size minimal.
 
